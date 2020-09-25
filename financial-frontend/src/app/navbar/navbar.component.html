@@ -1,0 +1,20 @@
+<nav class="navbar fluid">
+  <div class="container">
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <a href="javascript:;" class="navbar-toogle" (click)="showMenu();"> <i class="pi pi-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navbar-menu" [hidden]="!show">
+    <li class="navbar-user">ADMINISTRADOR</li>
+    <li class="navbar-menuItem"><a href="#">Lançamentos</a></li>
+    <li class="navbar-menuItem"><a href="#">Pessoas</a></li>
+    <li class="navbar-menuItem"><a href="#">Logout</a></li>
+  </ul>
+
+
+
+</nav>
